@@ -151,13 +151,30 @@
   margin: 10px 0 0 0;
   font-weight: normal;
 }
-
+.timeline-header__content {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Cardo;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+}
 .demo-footer {
   padding: 60px 0;
+  background-color: rgba(0, 0, 0, 0.9);
   text-align: center;
 }
 .demo-footer a {
-  color: #999;
+  color: #fff;
   display: inline-block;
   font-family: Cardo;
+}
+.timeline__footer-desc {
+  margin: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: #999;
+  font-family: Cardo;
+  font-weight: normal;
+  line-height: 25px;
 }
